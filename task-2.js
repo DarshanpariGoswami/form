@@ -1,13 +1,11 @@
-var submit = document.getElementById("submitbutton");
-//var table = document.getElementsByClassName("myDIV");
-//submit.addEventListener("click", tableeve);
+var sb = document.getElementsById("inputtxt");
 
-function allLetter(inputtxt) {
-  var letters = /^[A-Za-z]+$/;
-  if (inputtxt.value.match(letters)) {
+function allLetter(sb) {
+  if (sb.value.match(/^[A-Za-z]+$/)) {
+    alert("true");
     return true;
   } else {
-    alert("message");
+    alert("false");
     return false;
   }
 }
