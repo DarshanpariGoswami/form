@@ -1,0 +1,12 @@
+
+#maindiv
+{
+
+background-color: grey;
+
+}
+.myDIV
+{
+
+  transform: translate(0%,10%) scale(0);
+}
