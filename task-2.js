@@ -1,8 +1,13 @@
 var submit = document.getElementById("submitbutton");
-var table = document.getElementsByClassName("myDIV");
+//var table = document.getElementsByClassName("myDIV");
 //submit.addEventListener("click", tableeve);
-function tableeve() {
-  //table.style.display = "none";
-  document.getElementsByClassName(".myDIV").style.scale = "1";
+
+function allLetter(inputtxt) {
+  var letters = /^[A-Za-z]+$/;
+  if (inputtxt.value.match(letters)) {
+    return true;
+  } else {
+    alert("message");
+    return false;
+  }
 }
-document.getElementsByClassName("myDIV").style.scale = "1";
